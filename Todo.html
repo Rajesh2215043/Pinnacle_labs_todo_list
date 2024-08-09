@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="Todo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-header">
+        <h2>To-Do List</h2>
+      </div>
+      <div class="todo-body">
+        <input
+          type="text"
+          id="todoText"
+          class="todo-input"
+          placeholder="Add your items"
+        />
+        <button id="AddUpdateClick" onclick="CreateToDoItems();">Add</button>
+      </div>
+      <h5 id="Alert"></h5>
+      <ul id="list-items" class="list-items"></ul>
+    </div>
+    <script src="Todo.js"></script>
+  </body>
+</html>
